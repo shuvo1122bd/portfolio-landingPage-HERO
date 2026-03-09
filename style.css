@@ -24,9 +24,10 @@ body {
   box-shadow: 0 10px 20px 0 #8C8C8C;
 }
 
+
 .btn-white {
   background: #FFFFFF;
-  border: 2px solid #872BFF;
+  border: 1px solid #872BFF;
   color: black;
 }
 
@@ -147,13 +148,16 @@ body {
 }
 
 #projects-container {
-  margin: 70px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 60px;
 }
 
 .project-cardbox {
+  display: flex;
   background-color: #FFFFFF;
   border: 1px solid #872BFF;
-  display: flex;
   gap: 30px;
   padding: 48px;
   align-items: center;
@@ -182,4 +186,78 @@ body {
 
 .projects-content button {
   margin-top: 32px;
+}
+
+/* Experience-section */
+
+#experience {
+  margin-bottom: 80px;
+}
+
+.brands-card {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.brands {
+  padding: 60px;
+  background-color: white;
+  box-shadow: 0 4px 4px 0 #00000025;
+  border-radius: 16px;
+}
+
+.btn-container {
+  text-align: center;
+  padding: 60px;
+}
+
+/* Footer-section */
+
+footer {
+  display: flex;
+  gap: 700px
+}
+
+.footer-content {
+  color: #5B5757;
+  font-size: 16px;
+  font-weight: 100px;
+  margin-left: 100px;
+
+}
+
+.footer-img img {
+  margin-right: 20px
+}
+
+/* Hover-effect */
+
+.btn:hover {
+  transition: all 0.5s;
+  background: #FFFFFF;
+  color: black;
+}
+
+.btn-white:hover {
+  background-color: #a683d5;
+  transition: all 0.5s;
+}
+
+.item-section:hover {
+  background-color: #f2f2f2;
+}
+
+.project-cardbox:hover {
+  background-color: #f2f2f2;
+}
+
+.brands:hover {
+  background-color: #f2f2f2;
+}
+
+
+.item-section a:hover {
+  color: rgba(0, 0, 0, 0.189);
 }
